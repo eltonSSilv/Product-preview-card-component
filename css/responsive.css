@@ -1,0 +1,57 @@
+@media screen and (min-width: 600px) {
+  body {
+    padding: 80px;
+  }
+
+  /* conteudo principal */
+  main {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    gap: 50px;
+  }
+
+  /* imagem principal */
+  .container .imagem .mobile {
+    display: none;
+  }
+
+  .container .imagem .desktop {
+    display: flex;
+    width: 15em;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+  }
+
+  /* TEXTOS */
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    width: 120%;
+    padding: 10px 20px 10px 0;
+  }
+
+  .perfume {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  /* botoes */
+  .buttom {
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  .buttom:hover {
+    background-color: hsl(158, 36%, 20%);
+    transition: 1s;
+  }
+}

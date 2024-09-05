@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: aqua;
+}
+
+/* CONTAINER PRINCIPAL */
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 20px 10px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+}
+
+/* IMAGEM PRINCIPAL */
+.imagem .mobile {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border-radius: 15px 15px 0 0;
+}
+
+.imagem .desktop {
+  display: none;
+}
+
+/* TITULOS E SUBTITULOS */
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.text__produt {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  gap: 20px;
+}
+
+.text__perfum .perfum {
+  display: flex;
+  font-family: montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 8px;
+}
+
+.text__produt h1 {
+  font-family: Fraunces;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.text__produt .text__description .description {
+  font-family: montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+/* PREÇOS */
+.price {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  gap: 20px;
+  color: hsl(158, 36%, 37%);
+}
+
+.price .number .discounted__price {
+  font-size: 30px;
+  font-family: Fraunces;
+  font-weight: 800;
+}
+
+.price .original__value h3 {
+  font-size: 15px;
+  font-family: Fraunces;
+  text-decoration: line-through;
+}
+
+/* BOTAO */
+.buttom {
+  background-color: hsl(158, 36%, 37%);
+  display: flex;
+  flex-direction: row;
+  color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 70%;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 15px;
+  gap: 20px;
+}
+
+.btn__icon {
+  color: white;
+}
+
+.btn__text {
+  font-family: montserrat;
+  font-weight: 700;
+  font-size: 14px;
+}
